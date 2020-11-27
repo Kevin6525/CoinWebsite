@@ -52,7 +52,7 @@ nav select{
     font-size: 20px
 }
 #Section2 {
-    height: 200vh;
+    height: auto;
     width: 100%;
     display: inline-block;
     position: relative;
@@ -74,7 +74,7 @@ nav select{
 }
 #Section3 {
     display: inline-block;
-    height: 100vh;
+    height: auto;
     width: 100%;
     text-align: center;
     background: #d9d9d9;
@@ -87,7 +87,7 @@ nav select{
 }
 #Section4 {
     width: 100%;
-    height: 190vh;
+    height: auto;
     background: #e6ccb3;
     display: inline-block;
 }
@@ -127,25 +127,15 @@ nav select{
 #Section5 {
     display: inline-block;
     width: 100%;
-    height: 200vh;
+    height: auto;
     text-align: center;
     background: #d9d9d9;
 }
 #Section5 p {
     line-height: 3vh;
     text-align: left;
-    margin-left: 10vw;
-    margin-right: 10vw;
     }
-@media only screen and (min-width: 768px) {
-    html {
-        scroll-behavior: smooth;
-    }
-    body {
-        margin: 0;
-        border: 0;
-        font-family: 'Lora', serif;
-    }
+@media only screen and (min-width: 1440px) {
     nav select {
         display:none;
     }
@@ -175,26 +165,9 @@ nav select{
         text-transform: uppercase;
         font-weight: bold;
     }
-    #Section1 {
-        text-align: center;
-        height: 100vh;
-        width: 100%;
-        display: block;
-        position: relative;
-        color: white;
-    }
     #Section1::after {
-        content: "";
-        background: url("WebBackground.jpg");
-        opacity: 0.9;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
-        z-index: -1;
     }
     #Section1 h1 {
         font-weight: bold;
@@ -209,14 +182,6 @@ nav select{
         padding-top: 5vh;
         text-align: center;
         font-size: 30px
-    }
-    #Section2 {
-        height: 140vh;
-        width: 100%;
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        background: #e6ccb3;
     }
     #Section2 h3, h4{
         line-height: 2.5vh;
@@ -236,13 +201,6 @@ nav select{
         width: 20%;
         height: auto;
     }
-    #Section3 {
-        display: inline-block;
-        height: 100vh;
-        width: 100%;
-        text-align: center;
-        background: #d9d9d9;
-    }
     #Section3 p{
         line-height: 2vh;
         padding-left: 25%;
@@ -253,13 +211,6 @@ nav select{
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-    #Section4 {
-        width: 100%;
-        height: 200vh;
-        position: relative;
-        background: #e6ccb3;
-        display: inline-block;
     }
     #Section4 p{
         text-align: center;
@@ -292,12 +243,120 @@ nav select{
         width: 30%;
         height: auto;
     }
-    #Section5 {
+    #Section5 p {
+        line-height: 5vh;
+        text-align: left;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+@media only screen and (min-width: 768px) and  (max-width: 1440px){
+    nav select {
+        display:none;
+    }
+    nav{
+        width:100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        background: #990000;
+        z-index: 100;
+    }
+    ul {
         display: inline-block;
-        width: 100%;
-        height: 100vh;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    li {
+        float: left;
+    }
+    a {
+        padding: 20px;
+        width: 100px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    #Section1::after {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #Section1 h1 {
+        font-weight: bold;
+        padding-top: 35vh;
+        margin: 0;
         text-align: center;
-        background: #d9d9d9;
+        font-size: 60px;
+    }
+    #Section1 p1 {
+        display: inline-block;
+        position: relative;
+        padding-top: 5vh;
+        text-align: center;
+        font-size: 30px
+    }
+    #Section2 h3, h4{
+        line-height: 2.5vh;
+        font-size: 20px;
+    }
+    #Section2 p {
+        line-height: 2vh;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #obverseCoin {
+        width: 20%;
+        height: auto;
+
+    }
+    #reverseCoin {
+        width: 20%;
+        height: auto;
+    }
+    #Section3 p{
+        line-height: 2vh;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    #Augustus {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Section4 p{
+        text-align: center;
+        line-height: 1.5vh;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    #Section4 p1 {
+        line-height: 2vh;
+        margin-left: 25%;
+        text-align: left;
+    }
+    #Aureus{
+        padding-left:35%;
+        width: 30%;
+        height: auto;
+    }
+    #BuildingCoin{
+        padding-left:35%;
+        width: 30%;
+        height: auto;
+    }
+    #Graph {
+        padding-left:35%;
+        width: 30%;
+        height: auto;
+    }
+    #Map {
+        padding-left:35%;
+        width: 30%;
+        height: auto;
     }
     #Section5 p {
         line-height: 5vh;
