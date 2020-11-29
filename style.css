@@ -95,32 +95,34 @@ nav select{
     text-align: center;
 }
 #Section4 p{
+    display: block;
     text-align: center;
-    line-height: 2vh;
-    padding-left: 20%;
-    padding-right: 20%;
+    line-height: 2.5vh;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #Section4 p1 {
-    line-height: 2vh;
+    display: block;
+    line-height: 2.5vh;
     text-align: left;
 }
 #Aureus{
-    padding-left: 25vw;
+    margin-left: 25vw;
     width: 50%;
     height: auto;
 }
 #BuildingCoin{
-    padding-left: 25vw;
+    margin-left: 25vw;
     width: 50%;
     height: auto;
 }
 #Graph {
-    padding-left: 25vw;
+    margin-left: 25vw;
     width: 50%;
     height: auto;
 }
 #Map {
-    padding-left: 25vw;
+    margin-left: 25vw;
     width: 50%;
     height: auto;
 }
@@ -132,6 +134,29 @@ nav select{
     background: #d9d9d9;
 }
 #Section5 p {
+    line-height: 2.5vh;
+    display: block;
+    text-align: left;
+}
+#Constantine{
+    width: 50%;
+    height: auto;
+}
+#Section5 p1 {
+    line-height: 2.5vh;
+    text-align: left;
+    display: block;
+
+}
+#Section6 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #e6ccb3;
+}
+#Section6 p {
+    display: block;
     line-height: 3vh;
     text-align: left;
     }
@@ -177,10 +202,7 @@ nav select{
         font-size: 60px;
     }
     #Section1 p1 {
-        display: inline-block;
-        position: relative;
         padding-top: 5vh;
-        text-align: center;
         font-size: 30px
     }
     #Section2 h3, h4{
@@ -194,58 +216,58 @@ nav select{
     }
     #obverseCoin {
         width: 20%;
-        height: auto;
 
     }
     #reverseCoin {
         width: 20%;
-        height: auto;
     }
     #Section3 p{
         line-height: 2vh;
-        padding-left: 25%;
-        padding-right: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
     #Augustus {
         width: 60%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     #Section4 p{
-        text-align: center;
         line-height: 1.5vh;
-        padding-left: 35%;
-        padding-right: 35%;
+        margin-left: 35%;
+        margin-right: 35%;
     }
     #Section4 p1 {
         line-height: 2vh;
         margin-left: 35%;
-        text-align: left;
+        margin-right: 35%;
     }
     #Aureus{
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #BuildingCoin{
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #Graph {
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #Map {
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
+    }
+    #Constantine {
+        width: 15%;
     }
     #Section5 p {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    #Section5 p1 {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    #Section6 p {
         line-height: 5vh;
-        text-align: left;
         margin-left: 10vw;
         margin-right: 10vw;
     }
@@ -287,15 +309,10 @@ nav select{
     #Section1 h1 {
         font-weight: bold;
         padding-top: 35vh;
-        margin: 0;
-        text-align: center;
         font-size: 60px;
     }
     #Section1 p1 {
-        display: inline-block;
-        position: relative;
-        padding-top: 5vh;
-        text-align: center;
+        margin-top: 5vh;
         font-size: 30px
     }
     #Section2 h3, h4{
@@ -309,12 +326,9 @@ nav select{
     }
     #obverseCoin {
         width: 20%;
-        height: auto;
-
     }
     #reverseCoin {
         width: 20%;
-        height: auto;
     }
     #Section3 p{
         line-height: 2vh;
@@ -323,44 +337,48 @@ nav select{
     }
     #Augustus {
         width: 60%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     #Section4 p{
-        text-align: center;
         line-height: 1.5vh;
-        padding-left: 35%;
-        padding-right: 35%;
+        margin-left: 35%;
+        margin-right: 35%;
     }
     #Section4 p1 {
         line-height: 2vh;
         margin-left: 25%;
-        text-align: left;
+        margin-right: 25%;
     }
     #Aureus{
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #BuildingCoin{
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #Graph {
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #Map {
-        padding-left:35%;
+        margin-left:35%;
         width: 30%;
-        height: auto;
     }
     #Section5 p {
+        line-height: 2vh;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #Constantine {
+        width: 25%;
+    }
+    #Section5 p1 {
+        line-height: 2vh;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #Section6 p {
         line-height: 5vh;
-        text-align: left;
         margin-left: 10vw;
         margin-right: 10vw;
     }
