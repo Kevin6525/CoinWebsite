@@ -332,8 +332,8 @@ nav select{
     }
     #Section3 p{
         line-height: 2vh;
-        padding-left: 25%;
-        padding-right: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
     #Augustus {
         width: 60%;
