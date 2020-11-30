@@ -183,12 +183,13 @@ nav select{
     }
     a {
         padding: 20px;
-        width: 100px;
+        width: 120px;
         display: block;
         text-decoration: none;
         color: #fff;
         text-transform: uppercase;
         font-weight: bold;
+        text-align: center;
     }
     #Section1::after {
         background-repeat: no-repeat;
@@ -295,7 +296,7 @@ nav select{
     }
     a {
         padding: 20px;
-        width: 100px;
+        width: 120px;
         display: block;
         text-decoration: none;
         color: #fff;
